@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="3dp"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:id="@+id/wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/book_name"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="sdfsdfsdfsdfsdf"
+                    android:textColor="@color/Topy"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="By " />
+
+                    <TextView
+                        android:id="@+id/book_auth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="dfdsfsdfsdfsdfsdf"
+                        android:textColor="@color/brown" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Edition " />
+
+                    <TextView
+                        android:id="@+id/book_edition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="dfdsfsdfsdfsdfsdf"
+                        android:textColor="@color/brown" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Description " />
+
+                    <TextView
+                        android:id="@+id/book_descr"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp"
+                        android:inputType="textMultiLine"
+                        android:text="dfdsfsdfsdfsdfsdf"
+                        android:textColor="@color/brown" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/send_it"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="25dp"
+                android:src="@drawable/ic_share" />
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|end"
+                android:layout_margin="25dp"
+                android:clickable="true"
+                android:visibility="gone"
+                android:src="@drawable/ic_del" />
+
+
+            <ImageView
+                android:id="@+id/editt"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center|end"
+                android:layout_margin="25dp"
+                android:clickable="true"
+                android:visibility="gone"
+                android:src="@drawable/ic_edit" />
+
+
+            <ImageView
+                android:id="@+id/rem_fav"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="25dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_fav" />
+
+            <ImageView
+                android:id="@+id/add_fav"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="25dp"
+                android:clickable="true"
+                android:visibility="gone"
+                android:src="@drawable/ic_affedfav" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/book_id"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center|start"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/bid_box"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

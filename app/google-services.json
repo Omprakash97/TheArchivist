@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "288655363871",
+    "firebase_url": "https://book-bank-app.firebaseio.com",
+    "project_id": "book-bank-app",
+    "storage_bucket": "book-bank-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288655363871:android:3ee5e380d21876d3",
+        "android_client_info": {
+          "package_name": "com.example.prakash.firebasetest1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288655363871-drudphclo42vp1hgochmca7uabgriv4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prakash.firebasetest1",
+            "certificate_hash": "a5312fc3541b525afa813c6f558bdb6ca6d64b66"
+          }
+        },
+        {
+          "client_id": "288655363871-tspadd9vrdrbu52kk5emujsg70neqsds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsEyFsYlxDDlfyrW1m6FKm-hrSWURQyv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288655363871-tspadd9vrdrbu52kk5emujsg70neqsds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
